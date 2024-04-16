@@ -102,3 +102,8 @@ void lookUp::on_pushButton_3_clicked()
     DB_Connection.close();
 }
 
+
+void lookUp::on_pushButton_5_clicked()
+{
+    close();
+}
